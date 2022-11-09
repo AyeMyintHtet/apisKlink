@@ -11,5 +11,5 @@ const firebaseConfig = {
 
 firebase.initializeApp(firebaseConfig)
 const db = firebase.firestore()
-const Data = db.collection("Data")
+const Data = db.collection("Datas")
 module.exports = Data
